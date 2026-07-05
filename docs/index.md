@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# Fawry SoftPOS Android SDK (IPC)
+# Fawry SoftPOS Android SDK (TapNPay)
 
 Integrate card payments into your Android app using the Fawry SoftPOS (TapNPay) app. The Payment SDK handles communication between your app and TapNPay over **IPC** (Inter-Process Communication), providing a seamless in-app payment experience on Android devices.
 
@@ -52,7 +52,7 @@ Your merchant app integrates the **Payment SDK** and binds to the Fawry **TapNPa
 
 - <a href="{% link getting-started.md %}">Getting Started</a> -- Install the SDK and make your first payment in 5 minutes
 - <a href="{% link installation.md %}">Installation</a> -- Detailed setup instructions and ProGuard rules
-- <a href="{% link connection-setup.md %}">Connection Setup</a> -- IPC connection and authentication modes
+- <a href="{% link connection-setup.md %}">Connection Setup</a> -- Init connection and authentication modes
 - <a href="{% link api-reference.md %}">API Reference</a> -- Full SDK API documentation
 - <a href="{% link response-handling.md %}">Response Handling</a> -- Parse transaction results from callbacks
 - <a href="{% link troubleshooting.md %}">Troubleshooting</a> -- Common issues and fixes
