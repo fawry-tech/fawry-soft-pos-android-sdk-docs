@@ -88,4 +88,4 @@ On success, `statusCode` in the response header is `1`:
 }
 ```
 
-See [Response Handling]({% link ../response-handling.md %}) for the full response structure.
+See [Response Handling]({% link response-handling.md %}) for the full response structure.
