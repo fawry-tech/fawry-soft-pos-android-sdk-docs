@@ -1,0 +1,35 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.fawry.softpos.android.example.sdk'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 23
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    // Resolved as a module dependency through the `flatDir` repository declared by whichever
+    // root project includes this module (see example/settings.gradle and the Flutter sample's
+    // android/build.gradle.kts), rather than as a raw `fileTree(...)`/`files(...)` dependency.
+    // AGP disallows direct local .aar file dependencies on a library module that itself gets
+    // bundled into an AAR, which happens when this module is consumed via
+    // `project(":sdk-integration")` from an app using a newer Android Gradle Plugin.
+    fileTree(dir: "libs", include: ["*.aar"]).files.each { aarFile ->
+        implementation(name: aarFile.name - ".aar", ext: "aar")
+    }
+    implementation 'com.google.code.gson:gson:2.10.1'
+}

@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FawryAndroidComposeExample" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0066CC</item>
+    </style>
+</resources>

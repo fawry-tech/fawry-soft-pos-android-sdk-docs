@@ -1,0 +1,34 @@
+title: Fawry SoftPOS Android SDK Docs
+description: Integration guide for Fawry SoftPOS Android Payment SDK (IPC)
+baseurl: "/fawry-soft-pos-android-sdk-docs"
+url: "https://fawry-tech.github.io"
+
+theme: just-the-docs
+
+color_scheme: light
+
+search_enabled: true
+
+heading_anchors: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "View on GitHub":
+    - "https://github.com/fawry-tech/fawry-soft-pos-android-sdk-docs"
+
+footer_content: "&copy; Fawry Payment Solutions. All rights reserved."
+
+nav_sort: case_insensitive
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - node_modules/
+  - vendor/
+  - Gemfile.lock

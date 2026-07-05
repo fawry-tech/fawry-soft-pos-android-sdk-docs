@@ -1,0 +1,23 @@
+# Build outputs
+example/.gradle/
+example/**/build/
+example/local.properties
+
+# Android Studio
+example/.idea/
+example/*.iml
+example/app/*.iml
+
+# SDK AAR (distributed separately by Fawry)
+example/app/libs/*.aar
+
+# Jekyll
+docs/_site/
+docs/.jekyll-cache/
+docs/Gemfile.lock
+docs/vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+.idea

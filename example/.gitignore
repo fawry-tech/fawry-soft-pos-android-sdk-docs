@@ -1,0 +1,13 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+
+# Created if Android Studio is opened on app/ by mistake
+app/.idea/
+app/.gradle/
+app/local.properties
+
+# SDK AAR (distributed separately by Fawry)
+sdk-integration/libs/*.aar

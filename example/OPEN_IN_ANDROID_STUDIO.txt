@@ -1,0 +1,17 @@
+OPEN THIS FOLDER IN ANDROID STUDIO
+==================================
+
+Open the "example" folder — NOT "example/app" or "example/app-compose".
+
+Correct path:
+  docs/fawry-soft-pos-android-sdk-docs/example/
+
+Wrong (causes Gradle sync errors):
+  docs/fawry-soft-pos-android-sdk-docs/example/app/
+  docs/fawry-soft-pos-android-sdk-docs/example/app-compose/
+
+In Android Studio: File → Open → select the "example" directory.
+
+Run configurations:
+  - app          → View-based example
+  - app-compose  → Jetpack Compose example

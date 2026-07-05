@@ -1,0 +1,10 @@
+throw new GradleException("""
+Do not open the 'app-compose' folder directly in Android Studio.
+
+Open the parent 'example' folder instead:
+  File → Open → select .../example/
+
+Then pick the 'app-compose' run configuration.
+
+See OPEN_IN_ANDROID_STUDIO.txt in this directory.
+""".stripIndent())
